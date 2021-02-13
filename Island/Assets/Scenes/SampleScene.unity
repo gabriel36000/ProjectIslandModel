@@ -161,6 +161,7 @@ Transform:
   - {fileID: 178314515}
   - {fileID: 956689445}
   - {fileID: 553278426}
+  - {fileID: 1704325905}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1482,6 +1483,96 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1704325904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 20268130}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_Name
+      value: LowPoly_Tree_v1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -377.37234
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 91.57
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -129.63
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7473996
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.66437477
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -96.730995
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a763ae1ba83388d469c97dbf44fcb208, type: 3}
+--- !u!4 &1704325905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: a763ae1ba83388d469c97dbf44fcb208,
+    type: 3}
+  m_PrefabInstance: {fileID: 1704325904}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1749544362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1939,15 +2030,15 @@ Terrain:
   serializedVersion: 5
   m_TerrainData: {fileID: 15600000, guid: 87e4f18630903094dad1895c0525dd6f, type: 2}
   m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
+  m_TreeBillboardDistance: 5
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_DetailObjectDistance: 111
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 1
-  m_SplatMapDistance: 1021
+  m_SplatMapDistance: 2000
   m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
+  m_ShadowCastingMode: 1
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
